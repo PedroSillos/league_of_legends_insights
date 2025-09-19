@@ -29,6 +29,18 @@ python main.py
    - Analisar suas últimas 100 partidas ranqueadas
    - Gerar visualizações dos seus campeões mais jogados, com mais vitórias e maior win rate
 
+## Testes
+Para executar os testes unitários:
+```bash
+python run_tests.py
+```
+
+Testes incluídos:
+- **test_analyzer.py**: Testa cálculos de estatísticas e extração de dados
+- **test_data_manager.py**: Testa armazenamento e carregamento de dados
+- **test_riot_api.py**: Testa chamadas de API com mocks
+- **test_visualizer.py**: Testa geração de visualizações
+
 ## Próximos passos
 - **🎯 Sistema de Recomendações**: IA que sugere campeões baseado no meta atual e histórico do jogador
 - **📊 Dashboard Web Interativo**: Interface web com gráficos dinâmicos e filtros por período/elo
