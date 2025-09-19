@@ -89,7 +89,7 @@ Testes incluídos:
 - **📈 Tracking de Progresso**: Gráficos de evolução de elo, KDA e CS por tempo
 
 ## Diagrama de arquitetura
-<img width="1200" height="800" alt="architecture_diagram" src="" />
+<img width="1200" height="800" alt="architecture_diagram" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/architecture_diagram.png" />
 
 ## Prompts utilizados
 ### Prompt 1
