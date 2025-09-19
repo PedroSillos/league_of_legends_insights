@@ -30,7 +30,9 @@ python main.py
    - Gerar visualizações dos seus campeões mais jogados, com mais vitórias e maior win rate
 
 ## Próximos passos
-<Adicionarei depois>
+- **🎯 Sistema de Recomendações**: IA que sugere campeões baseado no meta atual e histórico do jogador
+- **📊 Dashboard Web Interativo**: Interface web com gráficos dinâmicos e filtros por período/elo
+- **📈 Tracking de Progresso**: Gráficos de evolução de elo, KDA e CS por tempo
 
 ## Prompts utilizados
 ### Prompt 1
