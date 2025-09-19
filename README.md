@@ -50,6 +50,27 @@ python mcp_server.py
 - `get_champion_recommendations`: Sugere campeões baseado no histórico
 - `analyze_performance_trends`: Analisa tendências de performance
 
+## Deploy na AWS
+Para fazer deploy da aplicação na AWS usando Terraform:
+
+```bash
+# 1. Configure suas credenciais AWS
+aws configure
+
+# 2. Copie e edite as variáveis
+cp infrastructure/terraform.tfvars.example infrastructure/terraform.tfvars
+
+# 3. Execute o deploy
+cd infrastructure
+./deploy.sh
+```
+
+**Recursos criados:**
+- **S3 Bucket**: Armazenamento de dados dos jogadores
+- **Lambda Function**: Servidor MCP para recomendações
+- **API Gateway**: Endpoint REST para acesso ao MCP
+- **IAM Roles**: Permissões necessárias
+
 ## Testes
 Para executar os testes unitários:
 ```bash
