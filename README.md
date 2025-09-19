@@ -107,6 +107,12 @@ Testes incluídos:
 ## Diagrama de arquitetura
 <img width="1200" height="800" alt="architecture_diagram" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/architecture_diagram.png" />
 
+## Diagrama de arquitetura
+<img width="1200" height="1200" alt="main_py" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/main_py.png" />
+
+## Diagrama de arquitetura
+<img width="1200" height="1200" alt="mcp_server_py" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/mcp_server_py.png" />
+
 ## Prompts utilizados
 ### Prompt 1
 Sou um jogador de League of Legends e gostaria de uma ferramenta que retorna análises de como estou jogando competitivamente.
