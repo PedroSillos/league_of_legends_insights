@@ -2,12 +2,13 @@ from riot_api import RiotAPI
 from data_manager import DataManager
 from analyzer import MatchAnalyzer
 from visualizer import DataVisualizer
+import getpass
 
 def main():
     # Entrada do usuário
     game_name = input("Digite seu gameName: ")
     tag_line = input("Digite sua tagLine: ")
-    api_key = input("Digite sua API Key: ")
+    api_key = getpass.getpass("Digite sua API Key: ")
     
     # Inicializa classes
     riot_api = RiotAPI(api_key)

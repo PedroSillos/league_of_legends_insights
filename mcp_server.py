@@ -3,6 +3,7 @@ from analyzer import MatchAnalyzer
 from data_manager import DataManager
 from riot_api import RiotAPI
 import os
+import getpass
 
 def get_puuid_from_name(game_name, tag_line):
     """Busca PUUID pelos dados locais ou API da Riot"""
@@ -17,7 +18,7 @@ def get_puuid_from_name(game_name, tag_line):
     
     # Se não encontrou, busca na API
     print(f"\n🔍 Jogador não encontrado localmente. Buscando {game_name}#{tag_line} na API...")
-    api_key = input("Digite sua API Key da Riot: ").strip()
+    api_key = getpass.getpass("Digite sua API Key da Riot: ").strip()
     
     if not api_key:
         print("❌ API Key é obrigatória")
