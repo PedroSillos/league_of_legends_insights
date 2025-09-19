@@ -1,5 +1,5 @@
 # league_of_legends_insights
-Data analytics free solution that aims to give League of Legends players valuable insights.
+Solução gratuita de análise de dados que visa fornecer insights valiosos para jogadores de League of Legends.
 
 ## Qual problema inspirou a ideia do projeto?
 Sou um jogador de League of Legends e gostaria de uma ferramenta que retorna análises de como estou jogando competitivamente.
@@ -86,7 +86,7 @@ Testes incluídos:
 ## Próximos passos
 - **🎯 Sistema de Recomendações**: IA que sugere campeões baseado no meta atual e histórico do jogador
 - **📊 Dashboard Web Interativo**: Interface web com gráficos dinâmicos e filtros por período/elo
-- **📈 Tracking de Progresso**: Gráficos de evolução de elo, KDA e CS por tempo
+- **📈 Rastreamento de Progresso**: Gráficos de evolução de elo, KDA e CS por tempo
 
 ## Diagrama de arquitetura
 <img width="1200" height="800" alt="architecture_diagram" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/architecture_diagram.png" />
