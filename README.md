@@ -71,6 +71,22 @@ cd infrastructure
 - **API Gateway**: Endpoint REST para acesso ao MCP
 - **IAM Roles**: Permissões necessárias
 
+### Estimativa de Custos
+
+| Cenário | Usuários | Consultas/mês | S3 | Lambda | API Gateway | CloudWatch | **Total/mês** |
+|----------|----------|----------------|----|---------|--------------|-----------|-----------------|
+| **Pessoal** | 1 | 100 | $0,01 | $0,00 | $0,00 | $0,01 | **$0,02** 💰 |
+| **Pequeno** | 1.000 | 100.000 | $0,50 | $2,10 | $0,35 | $0,50 | **$3,45** |
+| **Enterprise** | 1.000.000 | 100.000.000 | $500 | $2.100 | $350 | $500 | **$3.450** |
+
+**Detalhamento dos custos:**
+- **S3**: $0,023/GB armazenamento + $0,0004/1000 requisições
+- **Lambda**: $0,0000166667/GB-segundo + $0,20/1M requisições
+- **API Gateway**: $3,50/milhão de requisições
+- **CloudWatch**: $0,50/GB logs ingeridos
+
+*Nota: Valores baseados na região us-east-1. Para cálculos precisos, use a [Calculadora de Preços AWS](https://calculator.aws)*
+
 ## Testes
 Para executar os testes unitários:
 ```bash
