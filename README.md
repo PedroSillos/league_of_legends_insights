@@ -1,4 +1,4 @@
-# league_of_legends_insights
+# League of Legends Insights
 Solução gratuita de análise de dados que visa fornecer insights valiosos para jogadores de League of Legends.
 
 ## Qual problema inspirou a ideia do projeto?
@@ -107,15 +107,15 @@ Testes incluídos:
 ## Diagrama de arquitetura
 <img width="1200" height="800" alt="architecture_diagram" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/architecture_diagram.png" />
 
-## Diagrama de arquitetura
+## Execução do main.py
 <img width="1200" height="1200" alt="main_py" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/main_py.png" />
 
-## Diagrama de arquitetura
+## Execução do mcp_server.py
 <img width="1200" height="1200" alt="mcp_server_py" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/mcp_server_py.png" />
 
 ## Prompts utilizados
 ### Prompt 1
-Sou um jogador de League of Legends e gostaria de uma ferramenta que retorna análises de como estou jogando competitivamente.
+"Sou um jogador de League of Legends e gostaria de uma ferramenta que retorna análises de como estou jogando competitivamente.
 
 Para isso, quero construir uma aplicação que extraia dados de algumas APIs da riot games e que crie dashboards e visualizações para tomadas de decisões.
 
@@ -135,16 +135,16 @@ Depois disso, transforme esses dados e calcule:
 
 Traga essas informações em forma de visualizações.
 
-Como eu poderia construir essa aplicação?
+Como eu poderia construir essa aplicação?"
 
 ### Prompt 2
-Faça as seguintes melhorias:
+"Faça as seguintes melhorias:
 1) Retorne os top 5 win rates, mesmo que alguns dos valores sejam iguais a 0%
-2) Ao trazer os matchIds, passe o valor de queue = 420, o de type = "ranked" e o de count = 100
+2) Ao trazer os matchIds, passe o valor de queue = 420, o de type = "ranked" e o de count = 100"
 
 ### Prompt 3
-Altere para que, caso uma partida já esteja armazenada, não seja feita uma nova requisição pelos dados da partida
+"Altere para que, caso uma partida já esteja armazenada, não seja feita uma nova requisição pelos dados da partida"
 
 ### Prompt 4
-Atualmente todos os maiores win rates são todos 100% pois os são win rates de campeões pouco jogados.
-Altere para que só venham win rates de campeões com pelo menos 3% do número total de partidas
+"Atualmente todos os maiores win rates são todos 100% pois os são win rates de campeões pouco jogados.
+Altere para que só venham win rates de campeões com pelo menos 3% do número total de partidas"
