@@ -7,6 +7,12 @@ Sou um jogador de League of Legends e gostaria de uma ferramenta que retorna an�
 ## Como a solução foi construída
 Essa solução foi construída usando a extensão Amazon Q para VS Code. O Amazon Q Developer é um assistente de IA generativa da AWS que ajuda desenvolvedores a escrever, depurar e otimizar código de forma mais eficiente, oferecendo sugestões inteligentes e automação de tarefas de desenvolvimento.
 
+### Configuração Amazon Q Developer
+O projeto inclui configurações otimizadas para Amazon Q:
+- **`.amazonq/rules/`**: Regras de codificação e contexto do projeto
+- **`.vscode/settings.json`**: Configurações do VS Code para Amazon Q
+- **`.vscode/extensions.json`**: Extensões recomendadas
+
 ## Instruções para rodar
 1. Instale as dependências:
 ```bash

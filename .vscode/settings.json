@@ -1,0 +1,22 @@
+{
+    "amazonQ.featureDevEnabled": true,
+    "amazonQ.codeWhispererEnabled": true,
+    "python.defaultInterpreterPath": "python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "python.testing.unittestEnabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "test_*.py"
+    ],
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/matches_*.json": false,
+        "**/player_data.json": false
+    }
+}
