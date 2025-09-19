@@ -29,6 +29,21 @@ python main.py
    - Analisar suas últimas 100 partidas ranqueadas
    - Gerar visualizações dos seus campeões mais jogados, com mais vitórias e maior win rate
 
+## Servidor MCP (Model Context Protocol)
+O projeto inclui um servidor MCP que fornece IA para recomendações de campeões:
+
+```bash
+# Instalar dependências MCP
+pip install mcp
+
+# Executar servidor MCP
+python mcp_server.py
+```
+
+**Ferramentas disponíveis:**
+- `get_champion_recommendations`: Sugere campeões baseado no histórico
+- `analyze_performance_trends`: Analisa tendências de performance
+
 ## Testes
 Para executar os testes unitários:
 ```bash
