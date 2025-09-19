@@ -40,8 +40,10 @@ class MatchAnalyzer:
         return Counter(winning_champions).most_common(top_n)
     
     def get_top_champions_winrate(self, player_matches: List[Dict], top_n: int = 5) -> List[Tuple[str, float]]:
-        """Retorna os N campeões com maior win rate"""
+        """Retorna os N campeões com maior win rate (mínimo 3% das partidas)"""
         champion_stats = {}
+        total_matches = len(player_matches)
+        min_games = max(1, int(total_matches * 0.03))  # 3% do total, mínimo 1
         
         for match in player_matches:
             champion = match['championName']
@@ -52,10 +54,11 @@ class MatchAnalyzer:
             if match['win']:
                 champion_stats[champion]['wins'] += 1
         
-        # Calcula win rate para todos os campeões
+        # Calcula win rate apenas para campeões com pelo menos 3% das partidas
         winrates = []
         for champion, stats in champion_stats.items():
-            winrate = stats['wins'] / stats['total']
-            winrates.append((champion, winrate))
+            if stats['total'] >= min_games:
+                winrate = stats['wins'] / stats['total']
+                winrates.append((champion, winrate))
         
         return sorted(winrates, key=lambda x: x[1], reverse=True)[:top_n]

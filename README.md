@@ -63,3 +63,7 @@ Faça as seguintes melhorias:
 
 ### Prompt 3
 Altere para que, caso uma partida já esteja armazenada, não seja feita uma nova requisição pelos dados da partida
+
+### Prompt 4
+Atualmente todos os maiores win rates são todos 100% pois os são win rates de campeões pouco jogados.
+Altere para que só venham win rates de campeões com pelo menos 3% do número total de partidas
