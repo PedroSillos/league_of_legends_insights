@@ -34,6 +34,9 @@ python main.py
 - **📊 Dashboard Web Interativo**: Interface web com gráficos dinâmicos e filtros por período/elo
 - **📈 Tracking de Progresso**: Gráficos de evolução de elo, KDA e CS por tempo
 
+## Diagrama de arquitetura
+<img width="1200" height="800" alt="architecture_diagram" src="https://github.com/PedroSillos/league_of_legends_insights/blob/main/architecture_diagram.png" />
+
 ## Prompts utilizados
 ### Prompt 1
 Sou um jogador de League of Legends e gostaria de uma ferramenta que retorna análises de como estou jogando competitivamente.
